@@ -1,4 +1,5 @@
 # JPrivatePodTest
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/1379302683@qq.com/JPrivatePodTest.svg?style=flat)](https://travis-ci.org/1379302683@qq.com/JPrivatePodTest)
 [![Version](https://img.shields.io/cocoapods/v/JPrivatePodTest.svg?style=flat)](https://cocoapods.org/pods/JPrivatePodTest)
@@ -27,3 +28,6 @@ pod 'JPrivatePodTest'
 ## License
 
 JPrivatePodTest is available under the MIT license. See the LICENSE file for more info.
+=======
+这是一个私有库，用来测试私有库创建的。
+>>>>>>> f3dcf5df19f5757345605850cecefcc12d223373
