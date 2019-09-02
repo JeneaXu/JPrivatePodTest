@@ -1,0 +1,6 @@
+framework module JPrivatePodTest {
+  umbrella header "JPrivatePodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
