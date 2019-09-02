@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JPrivatePodTest_Example' do
+  pod 'JPrivatePodTest', :path => '../'
+
+  target 'JPrivatePodTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
