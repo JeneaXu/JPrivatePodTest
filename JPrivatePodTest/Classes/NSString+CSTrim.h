@@ -28,9 +28,6 @@
 
 /**
  对右端过滤  比如去除右端空格
-
- @param characterSet NSCharacterSet
- @return 
  */
 - (NSString *)stringByTrimmingRightCharactersInSet:(NSCharacterSet *)characterSet;
 
