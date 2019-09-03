@@ -23,22 +23,18 @@
 }
 
 -(NSString *)trimWhitespaceAndNewline {
-    return [self trimCharacterSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]; //去掉前后空格和回车符
+    return [self trimCharacterSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
 - (NSString *)trimAllWhitespace {
     return [self stringByReplacingOccurrencesOfString:@" " withString:@""];
 }
 
-/**
- * 字符串是否非空
- */
 - (BOOL)notBlank{
     return (self.trimWhitespaceAndNewline.length > 0);
 }
 
 
-//过滤掉字符串中除中英文外的其他字符
 -(NSString *)fliterSepicalCharacter {
     NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern: @"[^a-zA-Z\u4E00-\u9FA5]"  options:0 error:nil];
     
